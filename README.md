@@ -1,5 +1,10 @@
 # myshell
 
+## 使用
+
+>因为使用了gnu的readline库，需要先[安装](https://blog.csdn.net/YinJianxiang/article/details/78951123)readline  
+>编译需要使用gcc -o ./myshell ./myshell.c -lreadline -ltermcap  
+
 ## 简介
 
 >用C语言实现的一个简易的shell，能够接受用户输入的命令并执行操作，支持多重管道及重定向 
